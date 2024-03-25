@@ -1,0 +1,299 @@
+/*Shantanu S Desai*/
+/*Student Id- 8910476*/
+/*Assignment 1*/
+
+html {
+    font: normal normal 400 20px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Created a multiple element list selector for h1 and h2 to set font varibles*/
+h1, h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: rgb(62, 181, 92);
+    padding: 0.25rem;
+    margin:0.25rem;
+}
+
+
+
+/*Created a ruleset to set the font size of q element*/
+q {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+/*Created a ruleset using class element sections nested in the main to center and added padding to it.*/
+.main-section{
+    text-align: center; 
+    padding: 2rem;
+    background-color: hsla(60, 75%, 66%, 0.985);
+}
+
+/*Created a ruleset to set the font size of footer p element*/
+footer p {
+    font-size: 0.8em; 
+}
+
+/*Created a ruleset for body element*/
+body {
+    width: 100%; 
+    max-width: 93.75rem; 
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/*Created a ruleset for image elements elements*/
+image{
+    width: 50%; 
+    height: auto;
+    /*border-radius: 0.5rem;*/
+}
+
+/*Added to the rulest for the figure elemet*/
+figure{
+    padding: 1rem; /* Adds padding to all sides of each figure */
+    margin: 2rem auto; /* Adds margin to the top and bottom, and sets left and right margins to auto for centering */
+}
+
+/*Created a ruleset for main section figure elements*/
+.main-section-figure{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem; /*added padding to it*/
+    border-radius: 0.5rem; /*It rounds the border*/ 
+}
+
+
+/*Adjusted the height and width of the absoulute-path-image*/
+#absolute-path-image img {
+    width: 30%; 
+    height: auto;
+    align-content: center;
+    padding: 1rem;
+    border: 0.2rem solid rgb(5, 5, 5);
+    border-radius: 0.5rem;
+    background-color: hsla(0, 0%, 41%, 0.5);
+}
+
+/*Adjusted the height and width of the relative-path-image*/
+#relative-path-image img {
+    width: 35%; 
+    height: 50%;
+    align-content: center;
+    padding: 1rem;
+    border: 0.2rem solid rgb(118, 11, 4);
+    border-radius: 0.5rem;
+    background-color: hsla(106, 77%, 67%, 0.916);
+}
+
+/*Created a ruleset to set the font size of figcaption element*/
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 1.2em;
+}
+#relative-path-image figcaption{
+    color: rgb(11, 84, 25);
+}
+
+#absolute-path-image figcaption{
+    color: rgb(0, 0, 0);
+}
+
+/*Created a ruleset for iframe elements*/
+section iframe{
+    width: 100%;
+    height: 42.75rem;
+    padding: 1rem; /*Adds padding to all sides*/
+    border: 0.2rem solid rgb(255, 255, 255);
+    border-radius: 0.5rem;/*round the corners*/
+    border: 0.2rem solid rgb(130, 24, 14);
+}
+
+/*Aligning the header and footer to be in center using a multiple list element selector*/
+header, footer{
+    text-align: center;
+    border: 0.125rem solid #080808;
+    background: linear-gradient(to right, rgb(103, 4, 4), rgb(246, 107, 107), rgb(103, 4, 4));
+}
+
+
+/*Added a ruleset for biography blockquote to align the text to left*/
+#bio{
+    text-align: left;
+    
+}
+
+/*Created a ruleset for the blockquote with the q element to add padding to all sides*/
+#quote{
+    padding: 2rem;
+    box-shadow: 0.625rem 0.625rem 1.25rem green, -0.625rem 0.625rem 0.938rem rgb(192, 55, 38), -0.625rem -0.625rem 0.938rem rgb(192, 55, 38);    
+}
+
+/*Asignment 2*/
+nav{
+    text-align: center;
+    /*color: green;*/
+    padding:0 1rem 2rem;
+    background-color: rgb(98, 211, 98);
+}
+
+nav ul{
+    list-style-type: none;/*Remove the sots from the list*/
+    padding: 0.25rem;
+    margin: 0 0.25rem;
+}
+
+/*Align Home Link to Left side*/
+#home-link{
+    float: left;
+    width: 49.5%;
+}
+
+/*Align Contact Link to Right side*/
+#contact-link{
+    float: right;
+    width: 49.5%;  
+}
+
+#main-section{
+    float: left;
+    width: 68%;
+}
+
+#side-section{
+    float: right;
+    width: 25%;
+}
+    
+#clear-element{
+    clear: both;
+    width: 100%;
+}
+
+nav ul li{
+    border: 0.1rem solid #000000;
+    background-color: white;
+}
+
+nav a{
+    color: #000000;
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    background-color: rgb(231, 139, 122);
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{ /*changes color on hovering*/
+    color: white;
+    background-color: #046A38;
+    border: 0.1rem solid white;
+}
+
+#biography{
+    float: left;
+    width: 49.5%
+}
+
+#image{
+    float: right;
+    width: 49.5%;
+}
+/*styling table*/
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+    width: 200px;
+}
+
+thead th {
+  width: 25%;
+}
+
+/*arragement of forms*/
+fieldset {
+margin: 2em 0;
+padding: 1em 2em;
+border: solid 1px #ccc;
+border-radius: 6px;
+min-width: 200%;
+}
+
+legend {
+font-size: 1.25em;
+padding: 0 .25em;
+color: #999;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+
+aside 
+{
+    background-color: hsla(60, 75%, 66%, 0.985);
+}
+
+body{
+    background-color: hsla(60, 75%, 66%, 0.985);
+}
+
+form {
+    max-width: 600px; 
+    margin: 1.25rem auto; /* Centers the form and adds margin around it */
+    padding: 1.25rem; /* Padding inside the form */
+    background-color: hsla(104, 76%, 74%, 0.882);
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+form label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 0.3rem; /* Space below the label */
+    color:rgb(228, 32, 29);
+    font-variant: small-caps; /* Small-caps font variant */
+    font-weight: bold; /* Bold font weight */
+    text-align: left; /* Align text to the left */
+}   
+
+form input[type="text"], form input[type="email"], form input[type="date"], form input[type=tel], form select, form textarea {
+    width: 100%; 
+    height: 2rem; 
+    margin-bottom: 1rem; 
+    padding: 0 0.625rem;
+    box-sizing: border-box; 
+    border: 0.1rem solid black; 
+    border-radius: 4px; 
+}
+
+form input[type="submit"]{
+    margin-top: 1rem; 
+    padding: 0 0.625rem;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5a6a7c; 
+}
+
+aside a {
+    text-decoration: none; /* Removes underline from links */
+    color: #135411;
+    line-height: 1.5; /* Increases line height for better readability */
+    display: block; 
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
